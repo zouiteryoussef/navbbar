@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: #0076ae;
+}
+.Mainnmenu {
+  height: 40px;
+  border-radius: 20px 5px;
+  border-bottom: 2px solid rgb(255, 0, 76);
+  padding-left: 2px;
+  margin-bottom: 0px;
+  display: flex;
+  background: linear-gradient(to right, #250056, #0076ae);
+  justify-content: flex-start;
+}
+.Mainnmenu li {
+  margin: 15px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.SubMenu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-top: 0px;
+  padding-left: 10px;
+  margin-left: 101px;
+  background-color: #0076ae;
+  border-radius: 12px 0px;
+  text-align: center;
+}
